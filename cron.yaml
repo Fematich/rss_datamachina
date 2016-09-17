@@ -1,0 +1,6 @@
+cron:
+- description: datamachina refresh job
+  url: /cron/datamachina
+  schedule: every 24 hours
+  target: jobs
+
